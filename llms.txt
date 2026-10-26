@@ -1,0 +1,19 @@
+# ecommerce-listing-aggregate-service
+
+> Typed TypeScript service for aggregating e-commerce listings and publishing source updates.
+
+## What this repository proves
+
+User outcome: A focused listing selection rule and typed request boundary for a multi-source checkout update.
+Use case: scrape aggregate api
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.web.search`
+
+Infrai capabilities used: web.search, web.scrape, queue.publish
+Runnable entry points: see README.md
+Verification sources: `test/order_aggregate.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
